@@ -41,10 +41,10 @@ PrintArray(randomBinaryArray);
 int[] RandomBinaryArray()
 {
     int[] array = new int[ARRAYSIZE];
-    Random random = new Random();
+    Random randomName = new Random();
 
     for(int i = 0; i < ARRAYSIZE; i++)
-        array[i] = random.Next(0, 2);
+        array[i] = randomName.Next(0, 2);
 
     return array;
 }
