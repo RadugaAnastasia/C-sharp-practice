@@ -7,7 +7,6 @@ Console.WriteLine("Введите число N: ");
 int N = int.Parse(Console.ReadLine()!);
 Console.WriteLine($"Все числа в промежутке от 1 до {N}: {Range(N)}");
 
-
 string Range(int N)
 {
     if(N == 1)
